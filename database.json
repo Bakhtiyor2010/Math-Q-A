@@ -1,0 +1,808 @@
+{
+    "1-1 Variables and Expressions": [
+        {
+            "question": "What is a variable in algebra?",
+            "answer": "A variable is a symbol, usually a letter, used to represent an unknown or changing value."
+        },
+        {
+            "question": "What is an algebraic expression?",
+            "answer": "An algebraic expression is a combination of numbers, variables, and operations without an equals sign."
+        },
+        {
+            "question": "What is a term in an expression?",
+            "answer": "A term is a single number, variable, or product of numbers and variables."
+        },
+        {
+            "question": "What is a coefficient?",
+            "answer": "A coefficient is the numerical factor multiplying a variable."
+        },
+        {
+            "question": "What is a constant?",
+            "answer": "A constant is a value that does not change."
+        },
+        {
+            "question": "What does it mean to evaluate an expression?",
+            "answer": "To evaluate an expression means to substitute values for variables and simplify."
+        },
+        {
+            "question": "What operation does the word 'sum' represent?",
+            "answer": "Addition."
+        },
+        {
+            "question": "What operation does the word 'difference' represent?",
+            "answer": "Subtraction."
+        },
+        {
+            "question": "What operation does 'product' represent?",
+            "answer": "Multiplication."
+        },
+        {
+            "question": "What operation does 'quotient' represent?",
+            "answer": "Division."
+        },
+        {
+            "question": "Why are parentheses used in expressions?",
+            "answer": "They group quantities and indicate operation priority."
+        },
+        {
+            "question": "What is verbal translation in algebra?",
+            "answer": "Converting words into algebraic expressions."
+        },
+        {
+            "question": "What is substitution?",
+            "answer": "Replacing a variable with a numerical value."
+        },
+        {
+            "question": "What makes two expressions equivalent?",
+            "answer": "They produce the same value for all variable values."
+        },
+        {
+            "question": "Why are expressions simplified?",
+            "answer": "To write them in the most concise and clear form."
+        }
+    ],
+    "1-2 Exponents and Order of Operations": [
+        {
+            "question": "What is an exponent?",
+            "answer": "An exponent indicates how many times a base is multiplied by itself."
+        },
+        {
+            "question": "What is the base of a power?",
+            "answer": "The base is the repeated factor in exponential form."
+        },
+        {
+            "question": "What does exponential notation represent?",
+            "answer": "Repeated multiplication of the same number."
+        },
+        {
+            "question": "What is the order of operations?",
+            "answer": "Rules that determine the sequence for evaluating expressions."
+        },
+        {
+            "question": "What does PEMDAS stand for?",
+            "answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction."
+        },
+        {
+            "question": "Why must parentheses be evaluated first?",
+            "answer": "They indicate grouped operations."
+        },
+        {
+            "question": "When are exponents evaluated?",
+            "answer": "After parentheses but before multiplication and division."
+        },
+        {
+            "question": "How are multiplication and division performed?",
+            "answer": "From left to right."
+        },
+        {
+            "question": "How are addition and subtraction performed?",
+            "answer": "From left to right."
+        },
+        {
+            "question": "Why is order of operations necessary?",
+            "answer": "To ensure everyone gets the same result."
+        },
+        {
+            "question": "What happens if operations are done in the wrong order?",
+            "answer": "The result becomes incorrect."
+        },
+        {
+            "question": "What are grouping symbols?",
+            "answer": "Symbols such as parentheses, brackets, and braces used to group expressions."
+        },
+        {
+            "question": "What is evaluating an expression?",
+            "answer": "Finding its numerical value."
+        },
+        {
+            "question": "Why are exponents useful?",
+            "answer": "They simplify repeated multiplication."
+        },
+        {
+            "question": "What mathematical rule ensures consistency in calculations?",
+            "answer": "The order of operations."
+        }
+    ],
+    "1-3 Simplifying Algebraic Expressions": [
+        {
+            "question": "What does simplifying mean in algebra?",
+            "answer": "Writing an equivalent expression using fewer or combined terms."
+        },
+        {
+            "question": "What are like terms?",
+            "answer": "Terms that have identical variables raised to the same powers."
+        },
+        {
+            "question": "Why can like terms be combined?",
+            "answer": "Because they represent the same variable quantity."
+        },
+        {
+            "question": "What are unlike terms?",
+            "answer": "Terms with different variables or exponents."
+        },
+        {
+            "question": "What is the distributive property?",
+            "answer": "a(b + c) = ab + ac."
+        },
+        {
+            "question": "Why is the distributive property used?",
+            "answer": "To remove parentheses and simplify expressions."
+        },
+        {
+            "question": "What is an equivalent expression?",
+            "answer": "An expression equal in value to another expression."
+        },
+        {
+            "question": "What is the commutative property?",
+            "answer": "Changing order does not change sum or product."
+        },
+        {
+            "question": "What is the associative property?",
+            "answer": "Changing grouping does not change result."
+        },
+        {
+            "question": "What is combining like terms?",
+            "answer": "Adding or subtracting coefficients of similar terms."
+        },
+        {
+            "question": "Why must variables match to combine terms?",
+            "answer": "Different variables represent different quantities."
+        },
+        {
+            "question": "What role do coefficients play?",
+            "answer": "They determine how many variable units exist."
+        },
+        {
+            "question": "What is factoring?",
+            "answer": "Writing an expression as a product."
+        },
+        {
+            "question": "Why simplify before solving equations?",
+            "answer": "To reduce complexity."
+        },
+        {
+            "question": "What indicates a simplified expression?",
+            "answer": "No like terms remain."
+        }
+    ],
+    "1-4 Rational, Irrational, and Decimal": [
+        {
+            "question": "What is a rational number?",
+            "answer": "A number that can be written as a ratio of integers."
+        },
+        {
+            "question": "What is an irrational number?",
+            "answer": "A number that cannot be written as a fraction."
+        },
+        {
+            "question": "What type of decimals do rational numbers produce?",
+            "answer": "Terminating or repeating decimals."
+        },
+        {
+            "question": "Why are irrational numbers non-repeating?",
+            "answer": "They cannot be expressed as exact fractions."
+        },
+        {
+            "question": "What are integers?",
+            "answer": "Whole numbers and their negatives including zero."
+        },
+        {
+            "question": "What are whole numbers?",
+            "answer": "Non-negative integers including zero."
+        },
+        {
+            "question": "What are real numbers?",
+            "answer": "All rational and irrational numbers."
+        },
+        {
+            "question": "What is absolute value?",
+            "answer": "Distance from zero on a number line."
+        },
+        {
+            "question": "What is a terminating decimal?",
+            "answer": "A decimal that ends."
+        },
+        {
+            "question": "What is a repeating decimal?",
+            "answer": "A decimal with repeating digits."
+        },
+        {
+            "question": "Why classify numbers?",
+            "answer": "To understand their properties."
+        },
+        {
+            "question": "What is the number line?",
+            "answer": "A visual representation of numbers."
+        },
+        {
+            "question": "How are numbers ordered?",
+            "answer": "By their position on the number line."
+        },
+        {
+            "question": "What separates positive and negative numbers?",
+            "answer": "Zero."
+        },
+        {
+            "question": "What set includes all rational and irrational numbers?",
+            "answer": "The real number system."
+        }
+    ],
+    "2-1 Writing Equations": [
+        {
+            "question": "What is an equation?",
+            "answer": "A statement showing two expressions are equal."
+        },
+        {
+            "question": "What does the equals sign represent?",
+            "answer": "Equality between two quantities."
+        },
+        {
+            "question": "What is a variable in an equation?",
+            "answer": "The unknown value being solved for."
+        },
+        {
+            "question": "What is a solution to an equation?",
+            "answer": "A value that makes the equation true."
+        },
+        {
+            "question": "What is translating a verbal statement?",
+            "answer": "Writing it as a mathematical equation."
+        },
+        {
+            "question": "Why define variables?",
+            "answer": "To clearly represent unknown quantities."
+        },
+        {
+            "question": "What is mathematical modeling?",
+            "answer": "Representing real situations using equations."
+        },
+        {
+            "question": "What does 'is' usually mean in algebraic translation?",
+            "answer": "Equals."
+        },
+        {
+            "question": "What does 'more than' indicate?",
+            "answer": "Addition."
+        },
+        {
+            "question": "What does 'less than' indicate?",
+            "answer": "Subtraction."
+        },
+        {
+            "question": "Why is equation structure important?",
+            "answer": "It ensures correct representation."
+        },
+        {
+            "question": "What connects words to algebra?",
+            "answer": "Translation into equations."
+        },
+        {
+            "question": "What is an unknown quantity?",
+            "answer": "A value not yet determined."
+        },
+        {
+            "question": "Why check equation setup?",
+            "answer": "To confirm it matches the situation."
+        },
+        {
+            "question": "What is the purpose of writing equations?",
+            "answer": "To solve problems systematically."
+        }
+    ],
+    "2-2 Solving Equations": [
+        {
+            "question": "What does solving an equation mean?",
+            "answer": "Finding the value of the variable."
+        },
+        {
+            "question": "What are inverse operations?",
+            "answer": "Operations that undo each other."
+        },
+        {
+            "question": "Why perform the same operation on both sides?",
+            "answer": "To maintain equality."
+        },
+        {
+            "question": "What is isolating the variable?",
+            "answer": "Getting the variable alone on one side."
+        },
+        {
+            "question": "What property allows adding to both sides?",
+            "answer": "Addition property of equality."
+        },
+        {
+            "question": "What property allows multiplying both sides?",
+            "answer": "Multiplication property of equality."
+        },
+        {
+            "question": "What is checking a solution?",
+            "answer": "Substituting into the original equation."
+        },
+        {
+            "question": "What is a linear equation?",
+            "answer": "An equation with variables of degree one."
+        },
+        {
+            "question": "Why simplify before solving?",
+            "answer": "To make solving easier."
+        },
+        {
+            "question": "What represents equation balance?",
+            "answer": "A balanced scale."
+        },
+        {
+            "question": "What happens if equality is broken?",
+            "answer": "The solution becomes incorrect."
+        },
+        {
+            "question": "What is algebraic reasoning?",
+            "answer": "Logical manipulation of equations."
+        },
+        {
+            "question": "Why use inverse operations step by step?",
+            "answer": "To systematically isolate variables."
+        },
+        {
+            "question": "What is a valid solution?",
+            "answer": "A value satisfying the equation."
+        },
+        {
+            "question": "Why verify answers?",
+            "answer": "To ensure correctness."
+        }
+    ],
+    "2-3 Variables on Both Sides": [
+        {
+            "question": "What is an equation with variables on both sides?",
+            "answer": "An equation where the same variable appears on both sides of the equals sign."
+        },
+        {
+            "question": "What is the main goal when solving such equations?",
+            "answer": "To collect all variable terms on one side and constants on the other."
+        },
+        {
+            "question": "Why move variables to one side?",
+            "answer": "To isolate the variable and simplify solving."
+        },
+        {
+            "question": "What operation is used to move terms across the equation?",
+            "answer": "Inverse operations."
+        },
+        {
+            "question": "What does combining like terms mean?",
+            "answer": "Adding or subtracting terms with identical variables."
+        },
+        {
+            "question": "Why must equality be preserved during solving?",
+            "answer": "Because both sides must remain equivalent."
+        },
+        {
+            "question": "What property allows subtracting a term from both sides?",
+            "answer": "Subtraction property of equality."
+        },
+        {
+            "question": "What happens after variables are combined?",
+            "answer": "The equation becomes a standard linear equation."
+        },
+        {
+            "question": "Why simplify each side first?",
+            "answer": "To reduce complexity before moving terms."
+        },
+        {
+            "question": "What indicates a correctly simplified equation?",
+            "answer": "Only one variable expression remains."
+        },
+        {
+            "question": "Why is organization important when solving?",
+            "answer": "It prevents algebraic mistakes."
+        },
+        {
+            "question": "What type of equations often result from this process?",
+            "answer": "Linear equations."
+        },
+        {
+            "question": "What mathematical principle guides every step?",
+            "answer": "Maintaining balance between both sides."
+        },
+        {
+            "question": "Why check solutions after solving?",
+            "answer": "To confirm the value satisfies the original equation."
+        },
+        {
+            "question": "What skill improves through these equations?",
+            "answer": "Algebraic manipulation and logical reasoning."
+        }
+    ],
+    "2-4 No Solution and Identity": [
+        {
+            "question": "What is a no-solution equation?",
+            "answer": "An equation that has no value making it true."
+        },
+        {
+            "question": "What is an identity equation?",
+            "answer": "An equation true for all values of the variable."
+        },
+        {
+            "question": "What usually happens to variables in identity equations?",
+            "answer": "They cancel out completely."
+        },
+        {
+            "question": "What result indicates an identity?",
+            "answer": "A true statement such as 0 = 0."
+        },
+        {
+            "question": "What result indicates no solution?",
+            "answer": "A false statement such as 5 = 2."
+        },
+        {
+            "question": "Why do identities occur?",
+            "answer": "Both sides of the equation are equivalent expressions."
+        },
+        {
+            "question": "Why do no-solution equations occur?",
+            "answer": "The expressions represent parallel relationships that never meet."
+        },
+        {
+            "question": "What does infinitely many solutions mean?",
+            "answer": "Every real number satisfies the equation."
+        },
+        {
+            "question": "What is a contradiction in algebra?",
+            "answer": "A false mathematical statement."
+        },
+        {
+            "question": "How can identities be recognized algebraically?",
+            "answer": "Variables eliminate and constants match."
+        },
+        {
+            "question": "How can no solutions be recognized?",
+            "answer": "Variables eliminate but constants differ."
+        },
+        {
+            "question": "Why is simplification essential?",
+            "answer": "It reveals whether solutions exist."
+        },
+        {
+            "question": "What concept explains identity equations graphically?",
+            "answer": "Two identical lines overlapping."
+        },
+        {
+            "question": "What concept explains no solutions graphically?",
+            "answer": "Parallel lines that never intersect."
+        },
+        {
+            "question": "Why classify solution types?",
+            "answer": "To understand the nature of the equation's solutions."
+        }
+    ],
+    "2-5 Solving for a Specific Variable": [
+        {
+            "question": "What does solving for a specific variable mean?",
+            "answer": "Rewriting an equation so one chosen variable is isolated."
+        },
+        {
+            "question": "Why rearrange formulas?",
+            "answer": "To find different quantities from the same relationship."
+        },
+        {
+            "question": "What is isolating a variable?",
+            "answer": "Getting the variable alone on one side of the equation."
+        },
+        {
+            "question": "What operations are used when rearranging formulas?",
+            "answer": "Inverse operations such as addition, subtraction, multiplication, and division."
+        },
+        {
+            "question": "Why must operations be applied to both sides?",
+            "answer": "To maintain equality."
+        },
+        {
+            "question": "What is a literal equation?",
+            "answer": "An equation containing multiple variables."
+        },
+        {
+            "question": "Why are literal equations important?",
+            "answer": "They appear frequently in science and geometry formulas."
+        },
+        {
+            "question": "What is the goal when solving formulas?",
+            "answer": "Express one variable in terms of others."
+        },
+        {
+            "question": "What happens when a variable is multiplied?",
+            "answer": "Divide both sides to isolate it."
+        },
+        {
+            "question": "What happens when a variable is divided?",
+            "answer": "Multiply both sides to isolate it."
+        },
+        {
+            "question": "Why is careful algebraic manipulation necessary?",
+            "answer": "To avoid changing the equation's meaning."
+        },
+        {
+            "question": "What skill is strengthened by solving literal equations?",
+            "answer": "Symbolic reasoning."
+        },
+        {
+            "question": "Why are formulas rearranged in physics?",
+            "answer": "Different problems require solving for different variables."
+        },
+        {
+            "question": "What is maintaining equation balance?",
+            "answer": "Keeping both sides mathematically equal during transformations."
+        },
+        {
+            "question": "What is the final form after solving for a variable?",
+            "answer": "The chosen variable appears alone on one side."
+        }
+    ],
+    "3-1 Relations and Functions": [
+        {
+            "question": "What is a relation?",
+            "answer": "A set of ordered pairs."
+        },
+        {
+            "question": "What is a function?",
+            "answer": "A relation where each input has exactly one output."
+        },
+        {
+            "question": "What is the domain?",
+            "answer": "All possible input values."
+        },
+        {
+            "question": "What is the range?",
+            "answer": "All output values."
+        },
+        {
+            "question": "What is an ordered pair?",
+            "answer": "A pair written as (x, y)."
+        },
+        {
+            "question": "What is function notation?",
+            "answer": "A way to name functions using symbols like f(x)."
+        },
+        {
+            "question": "What is the vertical line test?",
+            "answer": "A test to determine whether a graph represents a function."
+        },
+        {
+            "question": "What is an input value?",
+            "answer": "The independent variable."
+        },
+        {
+            "question": "What is an output value?",
+            "answer": "The dependent variable."
+        },
+        {
+            "question": "Why can a function not have two outputs for one input?",
+            "answer": "It would violate the definition of a function."
+        },
+        {
+            "question": "What represents relationships between variables?",
+            "answer": "Functions."
+        },
+        {
+            "question": "How can functions be represented?",
+            "answer": "Using tables, graphs, equations, or mappings."
+        },
+        {
+            "question": "What is independence in variables?",
+            "answer": "Input values do not depend on outputs."
+        },
+        {
+            "question": "What does evaluating a function mean?",
+            "answer": "Finding the output for a given input."
+        },
+        {
+            "question": "Why study functions?",
+            "answer": "They model real-world relationships."
+        }
+    ],
+    "3-2 Rate of Change and Slope": [
+        {
+            "question": "What is slope?",
+            "answer": "A measure of how steep a line is."
+        },
+        {
+            "question": "What does slope represent?",
+            "answer": "Rate of change between variables."
+        },
+        {
+            "question": "What is rate of change?",
+            "answer": "The ratio of change in y to change in x."
+        },
+        {
+            "question": "What is rise?",
+            "answer": "Vertical change."
+        },
+        {
+            "question": "What is run?",
+            "answer": "Horizontal change."
+        },
+        {
+            "question": "What does a positive slope indicate?",
+            "answer": "The line increases left to right."
+        },
+        {
+            "question": "What does a negative slope indicate?",
+            "answer": "The line decreases left to right."
+        },
+        {
+            "question": "What is zero slope?",
+            "answer": "A horizontal line."
+        },
+        {
+            "question": "What is undefined slope?",
+            "answer": "A vertical line."
+        },
+        {
+            "question": "What does constant rate of change mean?",
+            "answer": "Slope stays the same."
+        },
+        {
+            "question": "Why is slope important?",
+            "answer": "It describes relationships between variables."
+        },
+        {
+            "question": "What type of relationship has constant slope?",
+            "answer": "Linear relationships."
+        },
+        {
+            "question": "How is slope interpreted in context?",
+            "answer": "As change per unit."
+        },
+        {
+            "question": "What determines steepness?",
+            "answer": "Slope magnitude."
+        },
+        {
+            "question": "What does slope connect?",
+            "answer": "Two coordinate points."
+        }
+    ],
+    "3-3 Slope-Intercept and Point-Slope Form": [
+        {
+            "question": "What is slope-intercept form?",
+            "answer": "y = mx + b."
+        },
+        {
+            "question": "What does m represent?",
+            "answer": "Slope."
+        },
+        {
+            "question": "What does b represent?",
+            "answer": "y-intercept."
+        },
+        {
+            "question": "What is the y-intercept?",
+            "answer": "Where the graph crosses the y-axis."
+        },
+        {
+            "question": "What is point-slope form?",
+            "answer": "y − y1 = m(x − x1)."
+        },
+        {
+            "question": "When is point-slope form useful?",
+            "answer": "When slope and one point are known."
+        },
+        {
+            "question": "Why convert to slope-intercept form?",
+            "answer": "To graph easily."
+        },
+        {
+            "question": "What type of graph results from linear equations?",
+            "answer": "A straight line."
+        },
+        {
+            "question": "What is linear growth?",
+            "answer": "Constant increase."
+        },
+        {
+            "question": "What is linear decay?",
+            "answer": "Constant decrease."
+        },
+        {
+            "question": "Why is slope important in equations?",
+            "answer": "It determines direction and steepness."
+        },
+        {
+            "question": "What does intercept represent in context?",
+            "answer": "Initial value."
+        },
+        {
+            "question": "How many points define a line?",
+            "answer": "Two points."
+        },
+        {
+            "question": "What does rewriting equations help with?",
+            "answer": "Understanding relationships."
+        },
+        {
+            "question": "What is graph interpretation?",
+            "answer": "Understanding meaning from equations."
+        }
+    ],
+    "3-4 Parallel and Perpendicular Lines": [
+        {
+            "question": "What defines parallel lines?",
+            "answer": "Lines with equal slopes that never intersect."
+        },
+        {
+            "question": "What defines perpendicular lines?",
+            "answer": "Lines that intersect at a right angle."
+        },
+        {
+            "question": "What is the slope relationship of parallel lines?",
+            "answer": "Their slopes are equal."
+        },
+        {
+            "question": "What is the slope relationship of perpendicular lines?",
+            "answer": "Their slopes are negative reciprocals."
+        },
+        {
+            "question": "What is a right angle?",
+            "answer": "An angle measuring 90 degrees."
+        },
+        {
+            "question": "Why do parallel lines never meet?",
+            "answer": "They have identical direction."
+        },
+        {
+            "question": "What happens when slopes multiply to −1?",
+            "answer": "Lines are perpendicular."
+        },
+        {
+            "question": "What slope does a horizontal line have?",
+            "answer": "Zero."
+        },
+        {
+            "question": "What slope does a vertical line have?",
+            "answer": "Undefined."
+        },
+        {
+            "question": "What is geometric meaning of perpendicularity?",
+            "answer": "Lines form a square corner."
+        },
+        {
+            "question": "Why compare slopes?",
+            "answer": "To determine line relationships."
+        },
+        {
+            "question": "What remains constant in parallel lines?",
+            "answer": "Slope."
+        },
+        {
+            "question": "How do perpendicular lines relate algebraically?",
+            "answer": "Their slopes are opposite reciprocals."
+        },
+        {
+            "question": "What graph property identifies parallel lines?",
+            "answer": "Equal steepness."
+        },
+        {
+            "question": "What graph property identifies perpendicular lines?",
+            "answer": "Right-angle intersection."
+        }
+    ]
+}
