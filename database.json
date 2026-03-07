@@ -804,5 +804,315 @@
             "question": "What graph property identifies perpendicular lines?",
             "answer": "Right-angle intersection."
         }
+    ],
+    "3-5 Systems of Linear Equations": [
+        {
+            "question": "What is a system of linear equations?",
+            "answer": "A system of linear equations is a set of two or more equations with the same variables."
+        },
+        {
+            "question": "What is the solution of a system of linear equations?",
+            "answer": "The solution is the point where the graphs of the equations intersect."
+        },
+        {
+            "question": "How many solutions can a system of linear equations have?",
+            "answer": "It can have one solution, no solution, or infinitely many solutions."
+        },
+        {
+            "question": "What does one solution mean in a system of equations?",
+            "answer": "It means the lines intersect at exactly one point."
+        },
+        {
+            "question": "What does no solution mean in a system of equations?",
+            "answer": "It means the lines are parallel and never intersect."
+        },
+        {
+            "question": "What does infinitely many solutions mean?",
+            "answer": "It means the equations represent the same line."
+        },
+        {
+            "question": "What is the graphing method for solving systems?",
+            "answer": "It involves graphing both equations and finding their intersection point."
+        },
+        {
+            "question": "What is the substitution method?",
+            "answer": "It involves solving one equation for a variable and substituting it into the other equation."
+        },
+        {
+            "question": "What is the elimination method?",
+            "answer": "It involves adding or subtracting equations to eliminate one variable."
+        },
+        {
+            "question": "What type of equations are used in linear systems?",
+            "answer": "Linear equations, which graph as straight lines."
+        },
+        {
+            "question": "What does a consistent system mean?",
+            "answer": "A system with at least one solution."
+        },
+        {
+            "question": "What does an inconsistent system mean?",
+            "answer": "A system with no solution."
+        },
+        {
+            "question": "What does a dependent system mean?",
+            "answer": "A system with infinitely many solutions."
+        },
+        {
+            "question": "What is an independent system?",
+            "answer": "A system with exactly one solution."
+        },
+        {
+            "question": "Why are systems of equations useful?",
+            "answer": "They help solve problems involving multiple variables."
+        }
+    ],
+    "4-1 Functions": [
+        {
+            "question": "What is a function?",
+            "answer": "A function is a relation where each input has exactly one output."
+        },
+        {
+            "question": "What is the input of a function called?",
+            "answer": "The input is called the independent variable."
+        },
+        {
+            "question": "What is the output of a function called?",
+            "answer": "The output is called the dependent variable."
+        },
+        {
+            "question": "What is the domain of a function?",
+            "answer": "The domain is the set of all possible input values."
+        },
+        {
+            "question": "What is the range of a function?",
+            "answer": "The range is the set of all possible output values."
+        },
+        {
+            "question": "What is function notation?",
+            "answer": "Function notation uses symbols like f(x) to represent the output of a function."
+        },
+        {
+            "question": "What does f(x) mean?",
+            "answer": "It represents the value of the function f at input x."
+        },
+        {
+            "question": "What is a relation?",
+            "answer": "A relation is a set of ordered pairs."
+        },
+        {
+            "question": "How can functions be represented?",
+            "answer": "Functions can be represented by graphs, tables, equations, or mappings."
+        },
+        {
+            "question": "What is the vertical line test?",
+            "answer": "A test used to determine if a graph represents a function."
+        },
+        {
+            "question": "When does a graph fail the vertical line test?",
+            "answer": "When a vertical line intersects the graph at more than one point."
+        },
+        {
+            "question": "What does it mean if a graph passes the vertical line test?",
+            "answer": "It means the relation is a function."
+        },
+        {
+            "question": "What is an ordered pair?",
+            "answer": "An ordered pair is a pair of numbers written as (x, y)."
+        },
+        {
+            "question": "Which variable is usually the input in f(x)?",
+            "answer": "x is usually the input variable."
+        },
+        {
+            "question": "What does evaluating a function mean?",
+            "answer": "It means finding the output for a given input."
+        }
+    ],
+    "4-2 Function Rules": [
+        {
+            "question": "What is a function rule?",
+            "answer": "A function rule is an equation that describes how to calculate the output from the input."
+        },
+        {
+            "question": "How is a function rule usually written?",
+            "answer": "It is usually written in function notation like f(x) = expression."
+        },
+        {
+            "question": "What does evaluating a function involve?",
+            "answer": "Substituting a value for the variable and simplifying."
+        },
+        {
+            "question": "What is the independent variable?",
+            "answer": "The variable that represents the input of a function."
+        },
+        {
+            "question": "What is the dependent variable?",
+            "answer": "The variable that represents the output of a function."
+        },
+        {
+            "question": "What happens when you substitute a value into a function rule?",
+            "answer": "You calculate the corresponding output."
+        },
+        {
+            "question": "What type of expression can a function rule contain?",
+            "answer": "It can contain numbers, variables, and operations."
+        },
+        {
+            "question": "What is the purpose of a function rule?",
+            "answer": "It defines the relationship between input and output values."
+        },
+        {
+            "question": "Can a function rule be written in different forms?",
+            "answer": "Yes, it can be written as equations, tables, or graphs."
+        },
+        {
+            "question": "What does f(3) represent?",
+            "answer": "The value of the function when the input is 3."
+        },
+        {
+            "question": "What is substitution in functions?",
+            "answer": "Replacing the variable with a specific number."
+        },
+        {
+            "question": "What operation is often required after substitution?",
+            "answer": "Simplifying the expression."
+        },
+        {
+            "question": "Why are function rules important?",
+            "answer": "They help describe relationships between quantities."
+        },
+        {
+            "question": "What does the expression inside f(x) represent?",
+            "answer": "It represents the rule used to find the output."
+        },
+        {
+            "question": "Can functions describe real-world situations?",
+            "answer": "Yes, they are often used to model real-world relationships."
+        }
+    ],
+    "4-3 Graphs of Functions": [
+        {
+            "question": "What is the graph of a function?",
+            "answer": "The graph of a function is the set of all points (x, y) that satisfy the function rule."
+        },
+        {
+            "question": "How can you graph a function?",
+            "answer": "By plotting ordered pairs that satisfy the function."
+        },
+        {
+            "question": "What is an ordered pair in a function graph?",
+            "answer": "A pair (x, y) where x is the input and y is the output."
+        },
+        {
+            "question": "What does the x-coordinate represent?",
+            "answer": "The input value of the function."
+        },
+        {
+            "question": "What does the y-coordinate represent?",
+            "answer": "The output value of the function."
+        },
+        {
+            "question": "What plane is used to graph functions?",
+            "answer": "The Cartesian coordinate plane."
+        },
+        {
+            "question": "What are the axes on a graph?",
+            "answer": "The horizontal x-axis and the vertical y-axis."
+        },
+        {
+            "question": "What is the origin?",
+            "answer": "The point (0, 0) where the axes intersect."
+        },
+        {
+            "question": "What is a table of values?",
+            "answer": "A table that lists input values and their corresponding outputs."
+        },
+        {
+            "question": "Why is a table useful for graphing?",
+            "answer": "It helps generate points to plot on the graph."
+        },
+        {
+            "question": "What shape do linear functions form when graphed?",
+            "answer": "A straight line."
+        },
+        {
+            "question": "What does a point on the graph represent?",
+            "answer": "A solution to the function equation."
+        },
+        {
+            "question": "Can all functions be graphed?",
+            "answer": "Yes, functions can be represented graphically."
+        },
+        {
+            "question": "What is plotting?",
+            "answer": "Marking points on a coordinate plane."
+        },
+        {
+            "question": "Why are graphs useful?",
+            "answer": "They help visualize relationships between variables."
+        }
+    ],
+    "4-4 Linear Functions": [
+        {
+            "question": "What is a linear function?",
+            "answer": "A function whose graph is a straight line."
+        },
+        {
+            "question": "What is the general form of a linear function?",
+            "answer": "f(x) = mx + b."
+        },
+        {
+            "question": "What does m represent in a linear function?",
+            "answer": "m represents the slope of the line."
+        },
+        {
+            "question": "What does b represent in a linear function?",
+            "answer": "b represents the y-intercept."
+        },
+        {
+            "question": "What is the slope of a line?",
+            "answer": "The measure of how steep the line is."
+        },
+        {
+            "question": "What is the y-intercept?",
+            "answer": "The point where the graph crosses the y-axis."
+        },
+        {
+            "question": "How do you find the slope from two points?",
+            "answer": "Slope = (y2 − y1) / (x2 − x1)."
+        },
+        {
+            "question": "What does a positive slope mean?",
+            "answer": "The line rises from left to right."
+        },
+        {
+            "question": "What does a negative slope mean?",
+            "answer": "The line falls from left to right."
+        },
+        {
+            "question": "What does zero slope mean?",
+            "answer": "The line is horizontal."
+        },
+        {
+            "question": "What does undefined slope mean?",
+            "answer": "The line is vertical."
+        },
+        {
+            "question": "What is slope-intercept form?",
+            "answer": "An equation written as y = mx + b."
+        },
+        {
+            "question": "Why are linear functions important?",
+            "answer": "They model constant rates of change."
+        },
+        {
+            "question": "What does constant rate of change mean?",
+            "answer": "The output changes by the same amount for each unit increase in input."
+        },
+        {
+            "question": "How can linear functions be represented?",
+            "answer": "With equations, graphs, or tables."
+        }
     ]
 }
