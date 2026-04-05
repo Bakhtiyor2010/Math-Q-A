@@ -1,5 +1,25 @@
 import React, { useState } from 'react';
-import { CheckCircle2, XCircle, RotateCcw, ChevronRight, Award } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
+import remarkMath from 'remark-math';
+import remarkGfm from 'remark-gfm';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
+import { CheckCircle2, XCircle, RotateCcw, ChevronRight } from 'lucide-react';
+
+const MarkdownComponents = {
+  p: ({node, ...props}) => <span {...props} />, // Render as span to keep inline flow in lists/buttons
+  code: ({node, inline, ...props}) => (
+    <code 
+      style={{
+        background: 'rgba(59, 130, 246, 0.1)', 
+        padding: '0.1rem 0.3rem', 
+        borderRadius: '4px',
+        color: 'var(--primary)'
+      }} 
+      {...props} 
+    />
+  )
+};
 
 export default function Quiz({ quiz, onFinish }) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -8,6 +28,8 @@ export default function Quiz({ quiz, onFinish }) {
   const [isAnswered, setIsAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [score, setScore] = useState(0);
+
+  if (!quiz || quiz.length === 0) return <div>No quiz available for this lesson.</div>;
 
   const currentQuestion = quiz[currentQuestionIndex];
 
@@ -24,11 +46,11 @@ export default function Quiz({ quiz, onFinish }) {
   };
 
   const checkAnswer = (answer) => {
-    const correct = answer.toString().toLowerCase() === currentQuestion.correctAnswer.toLowerCase();
+    const correct = answer.toString().trim().toLowerCase() === currentQuestion.correctAnswer.toString().trim().toLowerCase();
     setIsCorrect(correct);
     setIsAnswered(true);
     if (correct) {
-      setScore(score + 1);
+      setScore(s => s + 1);
     }
   };
 
@@ -37,7 +59,8 @@ export default function Quiz({ quiz, onFinish }) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
       resetState();
     } else {
-      onFinish(score + (isCorrect ? 1 : 0), quiz.length);
+      // Score is already correctly updated in checkAnswer
+      onFinish(score, quiz.length);
     }
   };
 
@@ -56,8 +79,8 @@ export default function Quiz({ quiz, onFinish }) {
     <div className="animate-fade-in content-wrapper" style={{ maxWidth: '600px' }}>
       <div className="mb-6">
         <div className="flex justify-between items-center mb-2">
-          <h2 className="gradient-text" style={{ fontSize: '1.5rem', margin: 0 }}>Quiz</h2>
-          <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Question {currentQuestionIndex + 1} of {quiz.length}</span>
+          <h2 className="gradient-text" style={{ fontSize: 'clamp(1.2rem, 5vw, 1.5rem)', margin: 0 }}>Quiz</h2>
+          <span style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>Question {currentQuestionIndex + 1} of {quiz.length}</span>
         </div>
         <div style={{ height: '6px', background: 'rgba(255, 255, 255, 0.1)', borderRadius: '3px', overflow: 'hidden' }}>
           <div 
@@ -72,7 +95,11 @@ export default function Quiz({ quiz, onFinish }) {
       </div>
 
       <div className="glass-panel" style={{ padding: '2.5rem' }}>
-        <h3 style={{ marginBottom: '1.5rem', lineHeight: 1.4 }}>{currentQuestion.text}</h3>
+        <h3 style={{ marginBottom: '1.5rem', lineHeight: 1.4 }}>
+           <ReactMarkdown remarkPlugins={[remarkMath, remarkGfm]} rehypePlugins={[rehypeKatex]}>
+            {currentQuestion.text}
+          </ReactMarkdown>
+        </h3>
 
         {currentQuestion.type === 'multiple-choice' ? (
           <div className="flex flex-col gap-5">
@@ -84,7 +111,9 @@ export default function Quiz({ quiz, onFinish }) {
                   justifyContent: 'flex-start',
                   borderColor: selectedOption === option ? (isCorrect ? 'var(--accent)' : 'var(--danger)') : 'var(--border-light)',
                   background: selectedOption === option ? (isCorrect ? 'rgba(16, 185, 129, 0.1)' : 'rgba(239, 68, 68, 0.1)') : 'rgba(255, 255, 255, 0.05)',
-                  cursor: isAnswered ? 'default' : 'pointer'
+                  cursor: isAnswered ? 'default' : 'pointer',
+                  padding: '1rem',
+                  fontSize: '1rem'
                 }}
                 onClick={() => handleMCQSelect(option)}
               >
@@ -97,11 +126,14 @@ export default function Quiz({ quiz, onFinish }) {
                   alignItems: 'center',
                   justifyContent: 'center',
                   marginRight: '0.5rem',
-                  fontSize: '0.8rem'
+                  fontSize: '0.8rem',
+                  flexShrink: 0
                 }}>
                   {String.fromCharCode(65 + i)}
                 </div>
-                {option}
+                <ReactMarkdown remarkPlugins={[remarkMath, remarkGfm]} rehypePlugins={[rehypeKatex]} components={MarkdownComponents}>
+                  {option}
+                </ReactMarkdown>
               </div>
             ))}
           </div>
@@ -141,7 +173,11 @@ export default function Quiz({ quiz, onFinish }) {
                 <p style={{ fontWeight: 800, margin: 0, marginBottom: '0.25rem', color: isCorrect ? 'var(--accent)' : 'var(--danger)', fontSize: '1.1rem' }}>
                   {isCorrect ? 'Correct!' : 'Not quite. Let\'s review:'}
                 </p>
-                <p style={{ margin: 0, color: '#fff', lineHeight: 1.5 }}>{currentQuestion.explanation}</p>
+                <div style={{ margin: 0, color: '#fff', lineHeight: 1.5 }}>
+                  <ReactMarkdown remarkPlugins={[remarkMath, remarkGfm]} rehypePlugins={[rehypeKatex]}>
+                    {currentQuestion.explanation}
+                  </ReactMarkdown>
+                </div>
               </div>
             </div>
 

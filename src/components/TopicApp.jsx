@@ -4,7 +4,7 @@ import Lesson from './Lesson';
 import Quiz from './Quiz';
 import { Award, ChevronRight, BookOpen, Brain, TrendingUp, History, Menu, X } from 'lucide-react';
 
-export default function TopicApp({ topicTitle, lessons }) {
+export default function TopicApp({ topicTitle, lessons, onGoHome }) {
   const [currentLessonId, setCurrentLessonId] = useState(null);
   const [view, setView] = useState('intro'); // 'lesson' | 'quiz' | 'result' | 'intro'
   const [quizScore, setQuizScore] = useState({ correct: 0, total: 0 });
@@ -61,14 +61,15 @@ export default function TopicApp({ topicTitle, lessons }) {
         }}
         scores={userScores}
         isOpen={sidebarOpen}
+        onGoHome={onGoHome}
       />
       
       <main className="main-content">
         <div className="content-wrapper">
           {view === 'intro' && (
             <div className="animate-fade-in text-center p-8">
-              <h1 className="gradient-text" style={{ fontSize: '3.5rem' }}>{topicTitle}</h1>
-              <p style={{ fontSize: '1.25rem', marginBottom: '3rem' }}>The complete course for a perfect score in Math.</p>
+              <h1 className="gradient-text" style={{ fontSize: 'clamp(2.2rem, 8vw, 3.5rem)', lineHeight: 1.1 }}>{topicTitle}</h1>
+              <p style={{ fontSize: 'clamp(1rem, 4vw, 1.25rem)', marginBottom: 'clamp(1.5rem, 6vw, 3rem)', color: 'var(--text-muted)' }}>The complete course for a perfect score in Math.</p>
               
               <div className="flex flex-stack-mobile gap-6" style={{ marginBottom: '4rem', gap: '20px' }}>
                 <div className="glass-panel p-8" style={{ flex: 1 }}>

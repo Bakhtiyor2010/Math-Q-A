@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, TrendingUp, Calculator, Brain, Award, ChevronRight, GraduationCap } from 'lucide-react';
+import { BookOpen, TrendingUp, Calculator, Brain, Award, ChevronRight, GraduationCap, Shield, LineChart } from 'lucide-react';
 
 const topics = [
   {
@@ -25,6 +25,30 @@ const topics = [
     icon: <Brain size={32} />,
     color: 'var(--accent)',
     path: '/?topic=systems-of-equations'
+  },
+  {
+    id: 'inequalities',
+    title: 'Inequalities',
+    description: 'Solve, graph, and interpret linear and absolute value inequalities.',
+    icon: <Shield size={32} />,
+    color: 'var(--primary)',
+    path: '/?topic=inequalities'
+  },
+  {
+    id: 'linear-functions',
+    title: 'Linear Functions',
+    description: 'Master slope, intercept, and standard linear modeling techniques.',
+    icon: <LineChart size={32} />,
+    color: 'var(--secondary)',
+    path: '/?topic=linear-functions'
+  },
+  {
+    id: 'equations',
+    title: 'Equations',
+    description: 'Solve linear, multi-step, absolute value, and quadratic equations.',
+    icon: <Calculator size={32} />,
+    color: 'var(--accent)',
+    path: '/?topic=equations'
   }
 ];
 
