@@ -1,19 +1,23 @@
 import React from 'react';
-import { BookOpen, TrendingUp, RotateCcw, Layers, Award } from 'lucide-react';
+import { BookOpen, TrendingUp, RotateCcw, Layers, Award, Shield, Target, Calculator, Brain } from 'lucide-react';
 
 const icons = {
   BookOpen,
   TrendingUp,
   RotateCcw,
-  Layers
+  Layers,
+  Shield,
+  Target,
+  Calculator,
+  Brain
 };
 
-export default function Sidebar({ lessons, currentLessonId, setCurrentLessonId, scores, isOpen }) {
+export default function Sidebar({ lessons, topicTitle, currentLessonId, setCurrentLessonId, scores, isOpen }) {
   return (
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
       <div className="sidebar-header">
         <h2 className="gradient-text" style={{ fontSize: '1.5rem', marginBottom: '0.25rem' }}>SAT Math</h2>
-        <p style={{ margin: 0, fontSize: '0.9rem' }}>Percentages Masterclass</p>
+        <p style={{ margin: 0, fontSize: '0.9rem' }}>{topicTitle}</p>
       </div>
       
       <div className="sidebar-nav">

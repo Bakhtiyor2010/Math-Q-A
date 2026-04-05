@@ -67,9 +67,12 @@ export default function Lesson({ lesson, onStartQuiz }) {
         </h2>
         <div className="glass-panel mt-4" style={{ padding: '1.5rem', background: 'rgba(239, 68, 68, 0.05)', borderColor: 'rgba(239, 68, 68, 0.2)' }}>
           <ul style={{ paddingLeft: '1.5rem' }}>
-            {lesson.commonMistakes.map((mistake, i) => (
+            {lesson.commonMistakes?.map((mistake, i) => (
               <li key={i} className="mb-2" style={{ color: 'var(--text-muted)' }}>{mistake}</li>
             ))}
+            {(!lesson.commonMistakes || lesson.commonMistakes.length === 0) && (
+              <li style={{ color: 'var(--text-muted)' }}>No common mistakes listed for this topic. Stay focused!</li>
+            )}
           </ul>
         </div>
       </div>

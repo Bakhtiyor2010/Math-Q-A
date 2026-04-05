@@ -1,0 +1,872 @@
+
+
+====================
+SOURCE: Acing the New - SAT Math.pdf
+====================
+
+--- PAGE 6 ---
+ii • Contents 
+ 
+ 
+ 
+Chapter 5: Word Problems in Real-Life Situation                           77 
+    5-1 Solving Word Problems Using Linear Models                            77 
+    5-2 Solving Word Problems with Equations                               79 
+    5-3 Solving Word Problems Using Systems of Equations                        81 
+    5-4 Solving Word Problems Using Inequalities                             83 
+      Chapter 5 Practice Test                                          85 
+      Answers and Explanations                                        87 
+ 
+ 
+II. Statistics and Data Analysis 
+Chapter 6: Ratios, Rates, and Proportions                                95 
+    6-1 Ratios and Rates                                             95 
+    6-2 Proportions                                                97 
+    6-3 Ratios, Rates, and Proportions Word Problems                           99 
+      Chapter 6 Practice Test                                          101 
+      Answers and Explanations                                        103 
+ 
+Chapter 7: Percents                                               109 
+    7-1 Percent of Change                                            109 
+    7-2 Percents and Equations                                         111 
+    7-3 Percent Word Problems                                        113 
+      Chapter 7 Practice Test                                          115 
+      Answers and Explanations                                        117 
+ 
+Chapter 8: Statistics                                               121 
+    8-1 Mean, Median, Mode, and Range                                  121 
+    8-2 Standard Deviation                                           123 
+    8-3 Graphical Displays                                           125 
+    8-4 Scatter Plots                                               127 
+    8-5 Populations, Samples, and Random Selection                           129 
+      Chapter 8 Practice Test                                          131 
+      Answers and Explanations                                        133 
+ 
+Chapter 9: Categorical Data and Probability                              139 
+      9-1 Permutations and Combinations                                   139 
+      9-2 Rules of Probability                                           141 
+      9-3 Categorical Data and Conditional Probabilities                           143 
+      Chapter 9 Practice Test                                          145 
+      Answers and Explanations                                        147 
+ 
+--- PAGE 58 ---
+46                                                          Chapter 3 
+ 
+ 
+ 
+3-5. Solving Systems of Linear Equations 
+A set of linear equations with the same two variables is called a system of linear equations. 
+A system of two linear equations can have no solution, one solution, or an infinite number of solutions. 
+ 
+Solving Linear Systems by Graphing 
+Three types of graphs of linear systems are illustrated below. 
+  
+intersecting lines
+exactly one solution
+y
+xO
+consistent and
+independent
+coinciding lines
+infinitely many solutions
+y
+xO
+consistent and
+dependent
+parallel lines
+no solution
+y
+xO
+inconsistent
+ 
+ 
+ 
+     Example 1  □  Solve the system of equations by graphing. 
+              a. 
+2yx=                      b. 9 6 12xy−+ =  
+                25xy+=                        32 4xy−= −  
+ 
+     Solution   □  a.  2yx=  has the -y intercept 0 and the 
+                slope 2. Graph (0, 0). From (0, 0), 
+                move right 1 unit and up 2 units. Draw 
+                a dot. Draw a line through the points. 
+                To find the -x intercept of 25xy+= , 
+                let 0y = . 2(0) 5x +=  implies 5x = . 
+                To find the -y intercept let 0x = . 
+                02 5 y+=  implies 2.5y = . 
+                Plot (5, 0) and (0, 2.5) . Then draw a 
+                line through these two points. 
+                The lines have different slopes and intersect at (1, 2). 
+                The solution of the system is (1, 2). 
+ 
+              b. The slope-intercept form of 
+9 6 12xy−+ =  
+                is 3 22yx= + . 
+                The slope-intercept form of 32 4xy−= −  
+                is 3 22yx= + . 
+                Since the equations are equivalent, 
+                their graphs show the same line. Any 
+                ordered pair representing a point on 
+                that line will satisfy both equations. 
+                So, there are infinitely many solutions 
+                to this system. 
+O
+x
+y
+2yx=
+25xy+=
+ 
+O
+x
+y
+9 6 12xy−+ =
+32 4xy−=
+ 
+ 
+--- PAGE 59 ---
+Functions and Linear Equations                                              47 
+ 
+ 
+ 
+Solving Linear Systems by Substitution 
+The basic steps in the substitution method are as follows: 
+1. Solve one of the equations for one of its variables.       
+2. Substitute the resulting expression into the other equation and solve.              
+3. Substitute the resulting value into either of the original equations and solve for the other variable. 
+ 
+ 
+     Example 2  □  Solve the linear system by substitution method. 
+              1
+25
+yx
+xy
+= −
++=   
+ 
+     Solution   □  23 +=xy                     Second equation 
+              2 ( 1) 5+ −=xx                   Since the first equation is 1= −yx , substitute  
+                                        1−x  for y  in the second equation. 
+              3 15−=x                      Combine like terms. 
+              36 =x                       Add 1 to each side. 
+              2=x                        Divide each side by 3 and simplify. 
+              (2) 1= −y                     Substitute 2 for x  in the first equation. 
+               1=                        Simplify. 
+              The solution is ( 2,1). 
+ 
+ 
+Solving Linear Systems by Elimination 
+The basic steps in the elimination method are as follows: 
+1. Arrange the equations with the like terms in columns. 
+2. Multiply one or both equations to obtain new coefficients for x (or y ) that are opposites. 
+3. Add the equations and solve for the remaining variable. 
+4. Substitute this value into either of the original equations and solve for the other variable. 
+ 
+ 
+     Example 3  □  Solve the linear system by elimination method. 
+              2 3 13
+3 2 12
+xy
+xy
+−=
+−+ = −   
+ 
+     Solution   □  3(2 3 13)−=xy                   Multiply the first equation by 3 . 
+              2( 3 2 12)−+ = −xy                 Multiply the second equation by 2 . 
+              By multiplying the first equation by 3 and multiplying the second equation by 2, 
+              we obtain coefficients of x  that are opposites. 
+                6 9 39−=xy                     First equation modified. 
+              6 4 24−+ = −xy                   Second equation modified. 
+                 5 15−=y                   Sum of equations 
+                   3= −y                   Simplify. 
+              2 3( 3) 13−−=x                   Substitute 3−  for y  in the first equation. 
+              2 9 13+=x                     Simplify. 
+              24 =x                       Subtract 9 from each side. 
+              2=x                        Divide each side by 2 and simplify. 
+              The solution is (2, 3)− . 
+--- PAGE 60 ---
+48                                                          Chapter 3 
+ 
+ 
+ 
+Systems of Equations with No Solution and Infinitely Many Solutions  
+1. A system of equations has no solution if the two equations have the same slope but different -y intercepts. 
+2. A system of equations has infinitely many solutions if the two equations are equivalent. Therefore the 
+  two equations have the same slope and same -y intercepts. 
+When you are asked if a system of equations has no solution or infinitely many solutions, you 
+need to change the equations into slope-intercept form and check the slopes and -y intercepts. 
+ 
+ 
+     Example 4  □  For what value of c  will the system of equations below have no solution? 
+              26cx y−=   
+              34 4xy+=  
+ 
+     Solution   □  Change the equations into slope-intercept form. 
+              32
+cyx= −                     First equation in slope-intercept form 
+              3 14yx= −+                    Second equation in slope-intercept form 
+              If two equations have the same slope and different -y intercepts, the system has 
+              no solution. So, let 3
+24
+c = − . Solving this equation for c  gives 3
+2c = − . 
+              Since the lines are parallel and the -y intercepts are 3−  and 1, the two equations are 
+              not identical. Therefore, when 3
+2c = − , the system of equations has no solution. 
+ 
+ 
+     Example 5  □  For what value of b  will the system of equations below have infinitely many 
+              solutions?        24
+5 10
+xy
+x by
+− +=
+−= −   
+ 
+     Solution   □  24yx= +                     First equation in slope-intercept form 
+              5 10yx bb= +                    Second equation in slope-intercept form 
+              If two equations have infinitely many solutions, they are equivalent .             
+              Therefore, 52 b=  or 104 b= . Solving these equations for b  gives 5
+2b = . 
+ 
+ 
+     Example 6  □  Solve the linear system.  23 5xy−=   
+                             2 23yx= +  
+ 
+     Solution   □  Substitute the expression for y  from the second equation into the first equation. 
+              23 5xy−=                     First equation 
+              22 3( 2) 53xx− +=                 Substitute 2 23 x +  for y  in the first equation. 
+              2 2 65xx− −=                   Simplify. 
+              65−=                       Simplify. 
+              Since 65−=  is false, the system has no solution. 
+--- PAGE 61 ---
+Functions and Linear Equations                                              49 
+ 
+ 
+ 
+Exercises - Solving Systems of Linear Equations 
+ 
+1  
+ 
+24yx= +  
+1xy−= −  
+   Which ordered pair (, )xy  satisfies the system of    
+   equations shown above? 
+ 
+      A)  ( 2, 3)−−  
+      B)  ( 3, 2)−−  
+      C)  ( 1, 2)−  
+      D)  ( 2, 0)−  
+ 
+ 
+ 
+2  
+ 
+1 12 xy+=  
+25xy− −=  
+ 
+   If (, )xy  is a solution to the system of equations  
+   above, what is the value of xy+ ? 
+ 
+      A)  2−  
+      B)  1−  
+      C)    1  
+      D)   2  
+ 
+ 
+ 
+3  
+ 
+2 14x ky−=  
+52 5xy−=  
+ 
+   In the system of equations above, k  is a constant 
+   and x  and y  are variables. For what values of k  
+   will the system of equations have no solution? 
+ 
+ 
+ 
+ 
+ 
+ 
+4   
+   Which of the following systems of equations  
+   has infinitely many solutions? 
+ 
+      A) 1xy+=  
+     1xy−=  
+      B)  21xy− +=  
+     25xy− +=  
+      C)  11 123xy−=  
+     32 6xy−=  
+      D)  231xy+=  
+     32 1xy−=  
+ 
+ 
+ 
+5  
+ 
+0ax y−=  
+1x by−=  
+ 
+   In the system of equations above, a  and b  are  
+   constants and x  and y  are variables. If the system  
+   of equations above has no solution, what is the  
+   value of ab⋅ ? 
+ 
+ 
+ 
+ 
+ 
+6  
+ 
+12 15 2xy−=  
+1 103ax y−=  
+  
+   In the system of equations above, a  is a constant 
+   and x  and y  are variables. For what values of a  
+   will the system of equations have infinitely many  
+   solution? 
+ 
+ 
+ 
+--- PAGE 93 ---
+Word Problems in Real-Life Situation                                          81 
+ 
+ 
+ 
+5-3. Solving Word Problems Using Systems of Equations 
+A problem involving two unknown quantities can be solved by using a system of equations.  
+ 
+ 
+     Example 1  □  At a museum, Elly bought 3 student tickets and 2 adult tickets for $29.00. At the  
+              same museum Samantha bought 5 student tickets and 4 adult tickets for $54.00. 
+              How much does one student ticket and one adult ticket cost? 
+ 
+     Solution   □  1. The problem asks for the cost of one student ticket plus one adult ticket. 
+              2. Let s = the price of student ticket and 
+                and a = the price of adult ticket. 
+              3. { } { } { } { }
+number of price of number of price of total coststudent ticket student ticket adult ticket adult ticket⋅ +⋅=  
+                3 2 29sa+=                   First equation 
+                5 4 54sa+=                   Second equation 
+              4. 6 4 58sa−− = −                 First equation multiplied by 2− . 
+                  5 4 54sa+=                  Second equation 
+                By adding the two equations we get 4s−= −  or 4s = . 
+                Substitute 4s =  in the first equation. 
+                3(4) 2 29a+=  
+                12 2 29a+=  
+                2 17a =  
+                8.5a =  
+              5. 4 8.5 12.5sa+=+ =  
+                The cost of one student ticket and one adult ticket is $12.50. 
+ 
+ 
+ 
+ 
+     Example 2  □  On the second weekend of July, Eric hiked 10 less than twice the number of 
+              miles that he hiked on the first weekend of July. In these two weeks he hiked  
+              a total of 38 miles. How many miles did he hike on the first weekend? 
+ 
+     Solution   □  1. The problem asks for the number of miles Eric hiked on the first week of July. 
+              2. Let 
+f = the number of miles Eric hiked on the first week 
+                 and s = the number of miles Eric hiked on the second week. 
+              3. { } { }
+number of miles hiked 10 miles less than twice the number
+on the second weekend of miles he hiked on the first weekend=  
+                { }total number of miles hiked in the two weekends 38=  
+                2 10sf= −                   First equation 
+                38fs+=                    Second equation 
+              4. (2 10) 38ff + −=               2 10sf= −  is substituted to the 
+                                        second equation. 
+                3 10 38f −=                   Simplify. 
+                3 10 10 38 10f −+= +              Add 10 to each side. 
+                3 48f =                     Simplify. 
+                16f =                      Divide each side by 3. 
+              5. Eric hiked 16 miles on the first weekend. 
+ 
+--- PAGE 94 ---
+82                                                            Chapter 5 
+ 
+ 
+ 
+Exercises - Solving Word problems Using Systems of Equations 
+ 
+1 
+   Adam and Betty purchased a printer together for  
+   $258. If Adam paid $18 less than twice Betty, 
+   how much money did Adam pay for the printer? 
+ 
+      A)  172 
+      B)  166 
+      C)  158 
+      D)  146 
+ 
+ 
+ 
+ 
+ 
+2 
+   There are 28 tables for customers at Mesa Grill  
+   Restaurant. The tables are either two-seat tables 
+   or four-seat tables. When all the tables are full,  
+   there will be 90 customers in the restaurant. How  
+   many two-seat tables are at the restaurant? 
+ 
+      A)  11 
+      B)  13 
+      C)  15 
+      D)  17 
+ 
+ 
+ 
+ 
+ 
+3 
+   In a basketball, a field goal is either 2 or 3 points.  
+   In a college basketball tournament, Jim made 73  
+   more 2-point field goals than 3-point field goals. 
+   If he scored a total of 216 goals in the tournament  
+   how many 3-point field goals did he make? 
+ 
+      A)  12 
+      B)  14 
+      C)  16 
+      D)  18 
+ 
+ 
+ 
+ 
+ 
+4 
+   In a car dealership, all of the vehicles are either 
+   a sedan or a SUV. If 36 sedans are sold and 36  
+   SUVs are added, there will be an equal number 
+   of sedans and SUVs. If 8 SUVs are sold and 8  
+   sedans are added, there will be twice as many  
+   sedans as SUVs. How many sedans were at the  
+   dealership before any vehicle was sold? 
+ 
+      A)  132 
+      B)  144 
+      C)  156 
+      D)  168 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5 
+   At a coffee shop, a 16 ounce bag of coffee is on 
+   sale at $5.25 less than the regular price. The cost 
+   of 4 bags of coffee at regular price is the same as  
+   the cost of 6 bags of coffee at sale price. Let r  be  
+   the regular price of coffee and s  be the sale price  
+   of coffee. Which of the following systems of  
+   equations can be used to find the values of 
+   variables r  and s ? 
+ 
+      A)  16
+6     
+= −
+ =
+sr
+rs  
+      B)  5.25
+4 16      
+= −
+ =
+sr
+r        
+   C)  5.25
+4 6      
+sr
+rs
+= −
+ =
+       
+   D)  5.25
+4 6      
+sr
+rs
+= +
+ =
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 126 ---
+114                                                         Chapter 7 
+ 
+ 
+ 
+Exercises - Percent Word Problems 
+ 
+1   
+   There are n  candies in a jar. If one candy is  
+   removed, what percent of the candies are left 
+   in terms of n ? 
+ 
+   A)  100(1 )%− n  
+      B)  1100( 1)%−n  
+      C)  1100( )%−n n
+ 
+      D)  1100( )%−n
+n
+ 
+ 
+ 
+ 
+2   
+   The price of a cellphone was discounted by 25% 
+   and then discounted an additional 20%, to become 
+   $348. What was the original price of the cellphone  
+   before it was discounted twice?  
+ 
+      A)  $580.00 
+      B)  $620.00 
+      C)  $650.00 
+      D)  $680.00 
+ 
+ 
+ 
+ 
+ 
+3   
+   A chemist mixes a 40% acid solution and a 30%  
+   acid solution. How many liters of the 40% 
+   solution must be added to produce 50 liters  
+   of a solution that is 36% acid? 
+ 
+      A)  24 
+      B)  26 
+      C)  30 
+      D)  32 
+ 
+ 
+ 
+ 
+4   
+   Victor invests part of his $5,000 in a savings  
+   account that pays 4.5% annual simple interest. 
+   He invests the rest in bonds that pay 8% annual  
+   simple interest. Let s  be the amount invested in  
+   savings and r  be the amount invested in bonds.  
+   Victor’s total income in one year from these  
+   investments is $305.50. Which of the following  
+   systems of equations represents this relationship?  
+ 
+   A)  0.045 0.08 5,000
+305.50            
++=
+ +=
+sr
+sr  
+      B)  0.08 0.045 5,000
+305.50            
++=
+ +=
+sr
+sr  
+      C)  5,000                
+0.045 0.08 305.50
++=
+ +=
+sr
+sr  
+      D)  5,000                
+0.08 0.045 305.50
++=
+ +=
+sr
+sr  
+ 
+ 
+ 
+5   
+   A sporting goods store added 50% profit cost 
+   and 8% tax to the price of a backpack, which 
+   then became $129.60. What was the price of  
+   the backpack before adding profit and tax? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6   
+   There are 800 students in a school and 45% of 
+   the students are male. If 30% of the male students  
+   and 25% of the female students play varsity sports,  
+   how many students play varsity sports? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 198 ---
+186                                                         Chapter 11 
+ 
+ 
+ 
+11-6. Solving Systems Consisting Linear and Quadratic Equations 
+A system containing only quadratic equations or a combination of linear and quadratic equations  
+in the same two variables is called a quadratic system. The substitution and elimination methods 
+used to solve linear systems can also be used to solve quadratic systems algebraically. You can 
+use graphs to find the number of real solutions of a quadratic system. If the graphs of a system 
+of equations are a quadratic and a linear, the system will have 0, 1, or 2 solutions. If the graphs of 
+a system of equations are two quadratic equations, the system will have 0, 1, 2, 3, or 4 soluti ons. 
+ 
+no solution one solution two solutions three solutions four solutions
+one solution two solutions two solutionsone solutionno solution
+ 
+ 
+ 
+ 
+     Example 1  □  Solve the system of equations.   
+              2 5= −yx  
+              1+=xy  
+ 
+ 
+     Solution   □  Rewrite 1+=xy  as 1= −yx . 
+              2 5= −yx  
+              215−= −xx                    Substitute 1 − x  for y . 
+              2 60+−=xx                    Simplify. 
+              ( 3)( 2) 0+ −=xx                  Factor. 
+              30+=x    or   20−=x            Zero Product Property 
+              3= −x    or   2=x              Solve for x . 
+              31−+ = y   or   21+=y            Substitute 3−  and 2 for x  in 1+=xy . 
+              4=y      or   1= −y             Solve for y . 
+              The solutions of the system of equations 
+              are ( 3, 4)−  and ( 2, 1)− . 
+              The equations are graphed in the 
+              diagram at the right. As you can 
+              see, the graphs  have two points 
+              of intersection at ( 3, 4)−  and ( 2, 1)− . 
+ 
+ 
+ 
+ 
+O
+y
+x
+( 3, 4)−
+(2, 1)−
+ 
+ 
+--- PAGE 389 ---
+SAT Practice Test 1                                                     377 
+     
+ 
+ 
+1   
+   One number is 4 times the value of another 
+   number. If their sum is 15− , what is the value 
+   of the smaller of the two numbers? 
+ 
+      A)  12−  
+      B)  9−  
+      C)  6−  
+      D)  3−  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2  
+ 
+ProfitsYear
+2010
+2011
+2012
+2013
+2014
+2015
+108,000
+320,000
+415,000
+576,000
+842,000
+1,160,000
+ 
+ 
+   The profits of an electronic company during the 
+six years of its operation are given in the table  
+above. Which of the following best approximates 
+the average rate of change of the profits from 2010  
+to 2015? 
+ 
+      A)  $180,000 per year 
+      B)  $210,000 per year 
+      C)  $250,000 per year 
+      D)  $280,000 per year 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3   
+   If () 2fx x = +  and 2( ) ( 1)gx x = − , which of the   
+   following is equivalent to ( () ) 2 ()gfa fa − ? 
+ 
+      A)  2a +  
+      B)  1a −  
+      C)  4a +  
+      D)  3a −  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4   
+   Which of the following systems of equations  
+   has no solution? 
+ 
+      A) 11 153xy+=  
+     3 5 15xy−=  
+      B)  4 3 12xy+=  
+     34 6xy−=  
+      C)  32 7xy−+ =  
+     11 323xy−=  
+      D)  21xy−+ =  
+     24 2xy−= −  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 391 ---
+SAT Practice Test 1                                                     379 
+     
+ 
+ 
+ 
+ Questions 9 and 10 refer to the following 
+ information. 
+ 
+   The manufacturer of a cable company sells cable for  
+ $30 per foot. The cost, C , of producing x  feet of  
+ cable is 12.5 210= +Cx . The company makes a 
+ profit when the amount of money received from 
+ selling the cable is greater than the cost of producing  
+ the cable. 
+ 
+ 
+9   
+   Which of the following inequalities gives all 
+   possible values of x  for which the company 
+   will make a profit? 
+ 
+   A)  12x >  
+   B)  14.4x >  
+   C)  16x >  
+   D)  18.6x >  
+ 
+ 
+ 
+ 
+ 
+10   
+   What is the profit that the company could earn 
+   from the sale of 50 feet of cable? 
+ 
+   A)  $620.00 
+   B)  $635.00 
+   C)  $650.00 
+   D)  $665.00 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11   
+   Alice and Bernie both own orchards that grow 
+   only apple trees and peach trees. Alice has twice 
+   as many apple trees as Bernie has. Bernie has 1.5 
+   times as many peach trees as Alice has. Alice’s  
+   orchard has 110 more trees than Bernie’s orchard.  
+   and the total number of trees in both orchards are  
+   1,050. Let x  be the number of apple trees in  
+   Bernie’s orchard and y  be the number of peach  
+   trees in Alice’s orchard. Which of the following  
+   systems of equations can be used to find the values  
+   of the variables x  and y ? 
+ 
+   A)  2 1.5 110x y xy+ = ++  
+     2 1.5 1, 050x y xy+ + +=  
+   B)  1.5 2 110xyx y+=+ +  
+     1.5 2 1, 050xyx y+++ =  
+   C)  2 1.5 110xyx y+=+ +  
+     2 1.5 1, 050xyx y+++ =  
+   D)  2 1.5 110x yxy+ =++  
+     2 1.5 1, 050x yxy+ ++ =  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12   
+   The average gas mileage of Roy’s car is 36 miles  
+   per gallon of gas for highway driving and 24 miles  
+   per gallon of gas for city driving. If Roy used 10  
+   gallons of gas for driving 340 miles on both 
+   highways and cities, how many miles did he  
+   drive on highways?  
+ 
+   A)  240 
+   B)  260 
+   C)  280 
+   D)  300 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+====================
+SOURCE: panda sat math.pdf
+====================

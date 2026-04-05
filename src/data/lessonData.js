@@ -1,38 +1,29 @@
 export const lessons = [
   {
     id: "basic-concepts",
-    title: "1. Basic Concepts",
+    title: "1. Foundations of Percentages",
     icon: "BookOpen",
     content: `
-# What is a Percentage?
+# Mastering English to Math Translation
 
-The word **percent** literally means "per hundred" (from the Latin *per centum*). When we say 50%, we mean 50 out of 100. 
+Percentages are simply a way of expressing a part of a whole, usually represented out of 100. The word "percent" literally means "per hundred."
 
-A percentage is just a fraction with a denominator of 100, or a decimal.
+The easiest way to solve any basic percentage problem is word-for-word translation. You translate the sentence into an equation using these simple building blocks:
+- **What** translates to **$x$** (our unknown variable)
+- **is** translates to **$=$** (equals)
+- **of** translates to **$\\times$** (multiply)
+- **percent** translates to **$\\div 100$** (or the decimal equivalent)
 
-### Conversions You Must Know
-To master SAT math, you must fluently jump between fractions, decimals, and percents:
-- **Percent to Decimal**: Divide by 100 (move the decimal point 2 places left). *Example: 45% = 0.45*
-- **Decimal to Percent**: Multiply by 100 (move the decimal point 2 places right). *Example: 0.08 = 8%*
-- **Fraction to Percent**: Convert the fraction to a decimal, then multiply by 100. *Example: 3/4 = 0.75 = 75%*
+For example, "What is 40% of 150?" translates directly to $x = 0.40 \\times 150$, which is $60$. If a question asks "What percent of 120 is 30?", you translate it to $(x/100) \\times 120 = 30$. 
 
-### Direct Translation
-A very common technique for basic SAT percent problems is translating English words into Math symbols:
-- **"What"** translates to a variable (e.g., $x$)
-- **"is"** translates to an equals sign ($=$)
-- **"%"** or **"percent"** translates to dividing by 100
-- **"of"** translates to multiplication ($\\times$)
-
-**Example Translator:**
-"What is 20% of 80?" 
-Translates to: $x = \\frac{20}{100} \\times 80$
+On the SAT, you'll also see multiple percentages combined. If a question asks for "10% of 20% of 1,000," chain the multiplication together: $0.10 \\times 0.20 \\times 1,000 = 20$. Always remember that percentages ARE numbers. If you need 400% of something, you are simply multiplying by 4.
     `,
     examples: [
       {
         question: "What is 40% of 150?",
         steps: [
           "Translate to math: x = (40 / 100) * 150",
-          "Simplify the fraction or decimal: x = 0.4 * 150",
+          "Simplify: x = 0.4 * 150",
           "Multiply: x = 60"
         ],
         answer: "60"
@@ -42,7 +33,7 @@ Translates to: $x = \\frac{20}{100} \\times 80$
         steps: [
           "Translate to math: 30 = (x / 100) * 120",
           "Isolate x: 30 / 120 = x / 100",
-          "Simplify the left side: 0.25 = x / 100",
+          "Simplify: 0.25 = x / 100",
           "Multiply by 100: x = 25"
         ],
         answer: "25%"
@@ -50,16 +41,33 @@ Translates to: $x = \\frac{20}{100} \\times 80$
       {
         question: "15% of what number is 45?",
         steps: [
-          "Translate to math: 0.15 * x = 45",
-          "Divide by 0.15: x = 45 / 0.15",
+          "Translate: 0.15 * x = 45",
+          "Solve: x = 45 / 0.15",
           "Calculate: x = 300"
         ],
         answer: "300"
+      },
+      {
+        question: "What is 150% of 20?",
+        steps: [
+          "Translate: x = 1.50 * 20",
+          "Multiply: x = 30"
+        ],
+        answer: "30"
+      },
+      {
+        question: "If 1/4 of a class is 25%, how many in total if 5 students are 1/4?",
+        steps: [
+          "25% means 1/4.",
+          "Eq: (1/4) * total = 5",
+          "total = 20"
+        ],
+        answer: "20"
       }
     ],
     commonMistakes: [
-      "Forgetting to convert the percentage to a decimal before multiplying (e.g., using 20 instead of 0.20 when taking 20% of a number).",
-      "Misinterpreting the word 'of'. Remember that 'of' always indicates multiplication."
+      "Using the number 20 when you mean 0.20. Percentages ARE decimals!",
+      "Confusing 'of' with 'addition'. Of always means Multiply."
     ],
     quiz: [
       {
@@ -103,70 +111,74 @@ Translates to: $x = \\frac{20}{100} \\times 80$
   },
   {
     id: "percent-change",
-    title: "2. Percent Change",
+    title: "2. Percentage Growth & Decay",
     icon: "TrendingUp",
     content: `
-# Percent Increase and Decrease
+# Mastering Percentage Changes
 
-One of the most frequently tested topics on the SAT. 
+An increase of 10% means you now have 110% of the original, while a decrease of 10% means you keep only 90%.
 
-### The Multiplier Method
-When a value increases or decreases by a percent, you can find the new value in ONE step by using a **multiplier**.
+The secret to solving these fast is the **Multiplier Method**. To calculate any new total, add or subtract your percentage from 1 to find the multiplier.
+- **Increase by 20%?** Multiplier $= 1.20$.
+- **Decrease by 20%?** Multiplier $= 0.80$.
 
-**Percent Increase Formula:**
-New Value = Original Value $\\times$ $(1 + \\frac{\\text{Percent}}{100})$
-*Example: A \\$50 shirt is marked up by 20%.*
-New Price = \\$50 $\\times$ (1 + 0.20) = \\$50 $\\times$ 1.20 = \\$60.
+The formula is always: **Original $\\times$ Multiplier $=$ Final**. 
 
-**Percent Decrease Formula:**
-New Value = Original Value $\\times$ $(1 - \\frac{\\text{Percent}}{100})$
-*Example: A \\$50 shirt is discounted by 20%.*
-New Price = \\$50 $\\times$ (1 - 0.20) = \\$50 $\\times$ 0.80 = \\$40.
-
-> **Crucial SAT Tip:** An increase of 30% is a multiplier of 1.30. A decrease of 30% is a multiplier of 0.70. Memorize this translation!
-
-> **The Golden Formula:**
-> $$\\text{Percent Change} = \\frac{\\text{New} - \\text{Old}}{\\text{Old}} \\times 100$$
-> (Or think of it as $\\frac{\\text{Difference}}{\\text{Original}} \\times 100$)
+Be wary of successive changes. If a price goes up by 20% and then down by 20%, it does NOT stay the same. You must multiply the two multipliers ($1.20 \\times 0.80 = 0.96$), resulting in a 4% decrease. 
     `,
     examples: [
       {
-        question: "A company's revenue increased from $40,000 to $50,000. What was the percent increase?",
+        question: "A revenue increased from $40,000 to $50,000. What was the percent increase?",
         steps: [
-          "Use the formula: (New - Old) / Old * 100",
-          "Difference = 50,000 - 40,000 = 10,000",
-          "Divide by Old (40,000): 10,000 / 40,000 = 0.25",
-          "Multiply by 100: 25%"
+          "Change = 50k - 40k = 10k",
+          "Divide by OLD (40k): 10 / 40 = 0.25",
+          "Percent = 25%"
         ],
         answer: "25%"
       },
       {
-        question: "The population of a town was 12,000. It decreased by 15%. What is the new population?",
+        question: "A $50 shirt is discounted by 20%. New price?",
         steps: [
-          "Find the multiplier for a 15% decrease: 1 - 0.15 = 0.85",
-          "Multiply the original value by the multiplier: 12,000 * 0.85",
-          "Calculate: 10,200"
+          "Multiplier: 0.80",
+          "50 * 0.80 = 40"
         ],
-        answer: "10,200"
+        answer: "40"
       },
       {
-        question: "A stock price dropped from $80 to $64. What is the percent decrease?",
+        question: "A population grows by 10% twice in a row. Total increase?",
         steps: [
-          "Use the formula: |New - Old| / Old",
-          "Difference = |64 - 80| = 16",
-          "Divide by Old (80): 16 / 80 = 0.20",
-          "Multiply by 100: 20%"
+          "Multiplier 1: 1.10",
+          "Multiplier 2: 1.10",
+          "Total: 1.10 * 1.10 = 1.21",
+          "Increase = 21%"
+        ],
+        answer: "21%"
+      },
+      {
+        question: "A price drops from $100 back down to $80. Decrease?",
+        steps: [
+          "Change = 20",
+          "Old = 100",
+          "20/100 = 20%"
         ],
         answer: "20%"
+      },
+      {
+        question: "A car worth $10k drops by 15% each year. After 2 years?",
+        steps: [
+          "Multiplier = 0.85",
+          "10,000 * 0.85 * 0.85 = 7,225"
+        ],
+        answer: "$7,225"
       }
     ],
     commonMistakes: [
-      "Using the 'New' value in the denominator instead of the 'Old' (Original) value when finding percent change.",
-      "Thinking a 20% increase followed by a 20% decrease returns you to the original amount. (It doesn't! 100 -> 120 -> 96)"
+      "Dividing by the 'New' value instead of the 'Old' (original) value.",
+      "Thinking +20% then -20% is back to normal."
     ],
     quiz: [
       {
-        id: "q3",
+        id: "q3-1",
         text: "A vintage car was bought for $15,000 and sold for $21,000. What is the percent increase in its value?",
         type: "multiple-choice",
         options: ["20%", "30%", "40%", "60%"],
@@ -174,14 +186,14 @@ New Price = \\$50 $\\times$ (1 - 0.20) = \\$50 $\\times$ 0.80 = \\$40.
         explanation: "(21,000 - 15,000) / 15,000 = 6,000 / 15,000 = 0.40, which is 40%."
       },
       {
-        id: "q4",
+        id: "q3-2",
         text: "If a laptop priced at $800 is discounted by 15%, what is the sale price (in dollars)?",
         type: "input",
         correctAnswer: "680",
         explanation: "Multiplier is 1 - 0.15 = 0.85. 800 * 0.85 = 680."
       },
       {
-        id: "q5",
+        id: "q3-3",
         text: "The price of a book dropped from $25 to $20. What was the percent decrease?",
         type: "multiple-choice",
         options: ["5%", "20%", "25%", "80%"],
@@ -189,89 +201,87 @@ New Price = \\$50 $\\times$ (1 - 0.20) = \\$50 $\\times$ 0.80 = \\$40.
         explanation: "(25 - 20) / 25 = 5 / 25 = 0.2, which is 20%."
       },
       {
-        id: "q6",
-        text: "A population increases from 2,000 to 2,500. What is the percent increase?",
+        id: "q3-4",
+        text: "A town population grows by 10% each year. If it starts at 1,000, what is it after 2 years?",
         type: "input",
-        correctAnswer: "25",
-        explanation: "(2,500 - 2,000) / 2,000 = 500 / 2,000 = 0.25, which is 25%."
+        correctAnswer: "1210",
+        explanation: "1,000 * 1.1 * 1.1 = 1,210."
       },
       {
-        id: "q7",
-        text: "A bank account starts with $400 and earns 5% interest. What is the new balance?",
-        type: "input",
-        correctAnswer: "420",
-        explanation: "Multiplier is 1.05. 400 * 1.05 = 420."
+        id: "q3-5",
+        text: "If x increases by 50% and then decreases by 50%, what is the final value relative to x?",
+        type: "multiple-choice",
+        options: ["Same", "25% decrease", "50% decrease", "100% same"],
+        correctAnswer: "25% decrease",
+        explanation: "1.5 * 0.5 = 0.75. That is a 25% decrease from 1."
       }
     ]
   },
   {
     id: "reverse-percentages",
-    title: "3. Reverse Percentages",
+    title: "3. Mastery of Reverse Calculations",
     icon: "RotateCcw",
     content: `
-# Finding the Original Value
+# Mastering the Reverse Calculation
 
-This is where the multiplier method truly shines and where many students struggle on the SAT. 
+When the SAT gives you the **final** result but the **start** is unknown, you are working with a reverse percentage problem. 
 
-Often, a problem will give you the **final** value *after* a percent increase or decrease has occurred, and ask you to find the **original** value.
+The easiest and fastest way to solve these is to stick to your equation: **Original $\\\\times$ Multiplier $=$ Final**. Since the original is unknown, use $x$. For instance, if a jacket costs 84 after an 8% tax, the equation is $x \\times 1.08 = 84$. Divide 84 by 1.08 to find the original price.
 
-**Do NOT just apply the percent to the final value.** 
-For example, if a shirt is \\$80 after a 20% discount, the original price is NOT \\$80 + 20% of \\$80. 
-
-> **The Golden Equation:**
-> $$\text{Original} \times \text{Multiplier} = \text{Final}$$
-
-If we don't know the Original, we make it $x$:
-$$x \times \text{Multiplier} = \text{Final}$$
-$$x = \frac{\text{Final}}{\text{Multiplier}}$$
-
-**Example:**
-A pair of shoes costs \\$63 after a 30% discount. What was the original price?
-1. The multiplier for a 30% discount is $1 - 0.30 = 0.70$.
-2. Set up the equation: $x \\times 0.70 = 63$
-3. Solve for $x$: $x = 63 / 0.70 = 90$
-
-The original price was \\$90.
+Never subtract or add the percentage to the final value directly. If a value increased by 10% to reach 110, simply subtracting 10% from 110 leaves you with 99, not the correct original of 100. By using a multiplier and solving for $x$, you ensure you are always calculating based on the **original** base, which is how the SAT calculates all percentage shifts.
     `,
     examples: [
       {
-        question: "After a 15% tip is added, a restaurant bill comes to \\$46. What was the bill before the tip?",
+        question: "After a 15% tip, a bill is $46. What was the start bill?",
         steps: [
-          "The multiplier for a 15% increase (tip) is 1.15",
-          "Set up the equation: x * 1.15 = 46",
-          "Divide by 1.15: x = 46 / 1.15",
-          "Calculate: x = 40"
+          "Tip multiplier = 1.15",
+          "Eq: x * 1.15 = 46",
+          "Solve: x = 46 / 1.15 = 40"
         ],
-        answer: "\\$40"
+        answer: "$40"
       },
       {
-        question: "A store is having a clearance sale where everything is 40% off. If a jacket costs \\$54 on sale, what was its original price?",
+        question: "A group is 40% girls. If there are 12 girls, total group?",
         steps: [
-          "The multiplier for a 40% discount is 1 - 0.40 = 0.60",
-          "Set up the equation: x * 0.60 = 54",
-          "Divide by 0.60: x = 54 / 0.60",
-          "Calculate: x = 90"
+          "Eq: 0.40 * x = 12",
+          "x = 12 / 0.40 = 30"
         ],
-        answer: "\\$90"
+        answer: "30"
       },
       {
-        question: "An employee's salary after a 5% raise is \\$63,000. What was their salary before the raise?",
+        question: "After a 10% raise, salary is $66,000. Start?",
         steps: [
-          "The multiplier for a 5% raise is 1.05",
-          "Set up equation: x * 1.05 = 63,000",
-          "Divide: x = 63,000 / 1.05",
-          "Calculate: x = 60,000"
+          "Multiplier = 1.10",
+          "Eq: x * 1.10 = 66,000",
+          "x = 60,000"
         ],
-        answer: "\\$60,000"
+        answer: "$60,000"
+      },
+      {
+        question: "If a pool is 60% full and has 600 gallons. Capacity?",
+        steps: [
+          "0.60 * x = 600",
+          "x = 1,000"
+        ],
+        answer: "1,000"
+      },
+      {
+        question: "A store is 20% off. Sale price is $80. Start price?",
+        steps: [
+          "Multiplier = 0.80",
+          "x * 0.80 = 80",
+          "x = 100"
+        ],
+        answer: "100"
       }
     ],
     commonMistakes: [
-      "Adding the percentage to the new value instead of dividing by the multiplier. (e.g., answering $63 + 30% of $63 for the shoes).",
-      "Using the wrong multiplier for single digit percentages (e.g., using 1.5 for a 5% raise instead of 1.05)."
+      "Multiplying the FINAL value by the percent.",
+      "Using the wrong multiplier."
     ],
     quiz: [
       {
-        id: "q5",
+        id: "q5-1",
         text: "After losing 20% of its weight, a block of ice weighs 40 pounds. What was its original weight?",
         type: "multiple-choice",
         options: ["48", "50", "60", "80"],
@@ -279,144 +289,32 @@ The original price was \\$90.
         explanation: "Multiplier is 0.80. x * 0.80 = 40. x = 40 / 0.80 = 50."
       },
       {
-        id: "q6",
-        text: "A gaming console costs $324 including an 8% sales tax. What is the price before tax (in dollars)?",
+        id: "q5-2",
+        text: "A jacket costs $108 after an 8% sales tax. What was the price before tax?",
         type: "input",
-        correctAnswer: "300",
-        explanation: "Multiplier is 1.08. x * 1.08 = 324. x = 324 / 1.08 = 300."
+        correctAnswer: "100",
+        explanation: "x * 1.08 = 108. x = 100."
       },
       {
-        id: "q7",
-        text: "A shirt is $42 after a 30% discount. What was the original price?",
+        id: "q5-3",
+        text: "If a 20% discount saves you $10, what was the original price?",
         type: "input",
-        correctAnswer: "60",
-        explanation: "Multiplier is 0.70. x * 0.70 = 42. x = 42 / 0.70 = 60."
+        correctAnswer: "50",
+        explanation: "0.20 * x = 10. x = 50."
       },
       {
-        id: "q8",
-        text: "A number increases by 25% to reach 100. What was the number?",
-        type: "multiple-choice",
-        options: ["75", "80", "125", "25"],
-        correctAnswer: "80",
-        explanation: "Multiplier is 1.25. x * 1.25 = 100. x = 100 / 1.25 = 80."
-      },
-      {
-        id: "q9",
-        text: "A pool is 60% full after 300 gallons were added to an empty pool. What is the total capacity?",
+        id: "q5-4",
+        text: "After a 25% increase, a population is 500. Original?",
         type: "input",
-        correctAnswer: "500",
-        explanation: "0.60 * x = 300. x = 300 / 0.60 = 500."
-      }
-    ]
-  },
-  {
-    id: "compound-percentages",
-    title: "4. Compound Percentages",
-    icon: "Layers",
-    content: `
-# Compound / Successive Changes
-
-What happens when multiple percent changes occur in a row? 
-
-**The most common SAT trap:** Students simply add or subtract the percentages. 
-*If a price goes up by 20% then down by 20%, you do not end up back at the starting price!*
-
-### The Chained Multiplier Method
-When combining multiple percentage expansions, simply chain the multipliers together.
-
-**Final Value = Original Value $\\times$ Multiplier$_1$ $\\times$ Multiplier$_2$ $\\times$ ...**
-
-**Example:**
-A $100 stock increases by 20%, then decreases by 20%.
-- Increase 20% multiplier: $1.20$
-- Decrease 20% multiplier: $0.80$
-- Calculation: $100 \\times 1.20 \\times 0.80 = 100 \\times 0.96 = 96$
-
-The final price is $96, which is an overall 4% decrease!
-
-### Exponential Growth/Decay
-If a value increases or decreases by the *same* percent $t$ times, you can use an exponent:
-**Final = Original $\times$ $(\text{Multiplier})^t$**
-
-*Example: A population of 500 bacteria increases by 10% every hour. How many bacteria after 4 hours?*
-$500 \times (1.10)^4$
-    `,
-    examples: [
-      {
-        question: "A store marks up a \$50 item by 40%, and then puts it on sale for 25% off. What is the final price?",
-        steps: [
-          "Markup multiplier: 1.40",
-          "Discount multiplier: 0.75",
-          "Chain them: 50 * 1.40 * 0.75",
-          "50 * 1.40 = 70",
-          "70 * 0.75 = 52.50"
-        ],
-        answer: "\$52.50"
+        correctAnswer: "400",
+        explanation: "x * 1.25 = 500. x = 400."
       },
       {
-        question: "A car depreciates by 15% each year. If it currently costs \$20,000, what will be its value in 3 years? (Round to nearest dollar)",
-        steps: [
-          "Depreciation multiplier: 1 - 0.15 = 0.85",
-          "It happens 3 times, so use an exponent: 20,000 * (0.85)^3",
-          "0.85^3 = ~0.614125",
-          "20,000 * 0.614125 = 12,282.50"
-        ],
-        answer: "\$12,283"
-      },
-      {
-        question: "Variables x and y are positive. If x is increased by 50% and y is decreased by 20%, by what percent does the product x*y increase?",
-        steps: [
-          "New x = 1.50x",
-          "New y = 0.80y",
-          "New product = (1.50x) * (0.80y) = 1.20(xy)",
-          "Multiplier of 1.20 means a 20% increase."
-        ],
-        answer: "20%"
-      }
-    ],
-    commonMistakes: [
-      "Adding or subtracting percents directly (e.g., thinking +30% then -20% is a net +10%).",
-      "Applying the second multiplier to the original value instead of the updated value."
-    ],
-    quiz: [
-      {
-        id: "q7",
-        text: "A town's population grows by 10% in 2020, and then by 20% in 2021. What is the total percent increase from the original?",
-        type: "multiple-choice",
-        options: ["30%", "31%", "32%", "132%"],
-        correctAnswer: "32%",
-        explanation: "1.10 * 1.20 = 1.32. A multiplier of 1.32 is a 32% increase."
-      },
-      {
-        id: "q8",
-        text: "If a rectangle's length is increased by 25% and its width is decreased by 20%, what is the percent change in its area?",
-        type: "multiple-choice",
-        options: ["+5%", "0% (No change)", "-5%", "+10%"],
-        correctAnswer: "0% (No change)",
-        explanation: "1.25 * 0.80 = 1.00. The area multiplier is 1, meaning it stays exactly the same (0% change)!"
-      },
-      {
-        id: "q9",
-        text: "A price increases by 10%, then decreases by 10%. What is the net percent change?",
-        type: "multiple-choice",
-        options: ["0%", "1% increase", "1% decrease", "2% decrease"],
-        correctAnswer: "1% decrease",
-        explanation: "1.10 * 0.90 = 0.99. A 0.99 multiplier is a 1% decrease."
-      },
-      {
-        id: "q10",
-        text: "An account grows by 40% in year 1, then drops by 50% in year 2. What is the final value relative to the start?",
-        type: "multiple-choice",
-        options: ["-10%", "-30%", "+10%", "-40%"],
-        correctAnswer: "-30%",
-        explanation: "1.40 * 0.50 = 0.70. A multiplier of 0.70 means a 30% decrease (-30%)."
-      },
-      {
-        id: "q11",
-        text: "A value increases by 20% twice in a row. What is the total percent increase?",
+        id: "q5-5",
+        text: "A car is worth $8,000 after 20% depreciation. Original value?",
         type: "input",
-        correctAnswer: "44",
-        explanation: "1.20 * 1.20 = 1.44. This is a 44% increase."
+        correctAnswer: "10000",
+        explanation: "x * 0.80 = 8,000. x = 10,000."
       }
     ]
   }
