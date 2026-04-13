@@ -45,10 +45,18 @@ const topics = [
   {
     id: 'equations',
     title: 'Equations',
-    description: 'Solve linear, multi-step, absolute value, and quadratic equations.',
+    description: 'Solve linear, multi-step, absolute value, and basic equations.',
     icon: <Calculator size={32} />,
     color: 'var(--accent)',
     path: '/?topic=equations'
+  },
+  {
+    id: 'quadratics',
+    title: 'Quadratics Mastery',
+    description: 'Master standard, vertex, and factored forms, discriminant, and shortcuts.',
+    icon: <Brain size={32} />,
+    color: 'var(--primary)',
+    path: '/?topic=quadratics'
   }
 ];
 

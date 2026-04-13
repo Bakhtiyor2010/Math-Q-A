@@ -7,6 +7,7 @@ import { systemsLessons } from './data/systemsData';
 import { inequalityLessons } from './data/inequalitiesData';
 import { linearLessons } from './data/linearFunctionsData';
 import { equationLessons } from './data/equationsData';
+import { quadraticsLessons } from './data/quadraticsData';
 
 export default function App() {
   const [topic, setTopic] = useState(null);
@@ -46,6 +47,10 @@ export default function App() {
 
   if (topic === 'equations') {
     return <TopicApp topicTitle="Equations" lessons={equationLessons} onGoHome={handleGoHome} />;
+  }
+
+  if (topic === 'quadratics') {
+    return <TopicApp topicTitle="Quadratics Mastery" lessons={quadraticsLessons} onGoHome={handleGoHome} />;
   }
 
   return <Home />;
